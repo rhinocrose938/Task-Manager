@@ -1,0 +1,24 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 10px;
+  margin-bottom: 14px;
+  height: 40px;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+}
+
+.searchIcon {
+  display: flex;
+  align-items: center;
+}
