@@ -1,27 +1,27 @@
 # Task Manager
-A simple, responsive task management application built with React, TypeScript, and Vite.
-It allows users to create, edit, delete, and organize tasks with a clean, mobile-friendly interface.
+- A simple, responsive task management application built with React, TypeScript, and Vite.
+- It allows users to create, edit, delete, and organize tasks with a clean, mobile-friendly interface.
 
 # Features
-Add, edit, and delete tasks
-Update task status:
-Pending
-In Progress
-Completed
-Sectioned task view by status
-Live search across task title and description
-Local storage persistence
-Smooth animations using Framer Motion
-Responsive layout for mobile and desktop
-Unit tests with Vitest and Testing Library
+- Add, edit, and delete tasks
+- Update task status:
+- Pending
+- In Progress
+- Completed
+- Sectioned task view by status
+- Live search across task title and description
+- Local storage persistence
+- Smooth animations using Framer Motion
+- Responsive layout for mobile and desktop
+- Unit tests with Vitest and Testing Library
 
 # Tech Stack
-React
-TypeScript
-Vite
-SCSS Modules
-Framer Motion
-Vitest + Testing Library
+- React
+- TypeScript
+- Vite
+- SCSS Modules
+- Framer Motion
+- Vitest + Testing Library
 
 # Getting Started
 1. Install dependencies
@@ -40,17 +40,29 @@ npm run test
 # Build for Production
 npm run build
 
-# Project Structure
+## Project Structure
+
+```
 src/
- ├── components/
- │   ├── AddTaskScreen.tsx
- │   ├── EditTaskScreen.tsx
- │   ├── SearchBar.tsx
- │   ├── StatusDropdown.tsx
- │   ├── TaskItem.tsx
- │   └── TaskList.tsx
- ├── styles/
- ├── types/
- ├── utils/
- ├── App.tsx
- └── main.tsx
+├── components/
+│   ├── AddTaskScreen.tsx
+│   ├── EditTaskScreen.tsx
+│   ├── SearchBar.tsx
+│   ├── StatusDropdown.tsx
+│   ├── TaskItem.tsx
+│   └── TaskList.tsx
+├── types/
+│   └── task.ts
+├── utils/
+│   └── storage.ts
+├── App.tsx
+└── main.tsx
+```
+
+
+ # App deployed on Vercel
+ https://task-manager-omega-sooty.vercel.app/
+
+- Tasks are persisted using browser localStorage.
+- No backend is required.
+- Designed with a mobile-first approach.
